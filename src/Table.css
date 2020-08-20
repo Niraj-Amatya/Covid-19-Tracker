@@ -1,0 +1,22 @@
+/* table with overflow to give scroll and needs height */
+.table {
+	margin-top: 20px;
+	overflow: scroll;
+	height: 400px;
+	color: #6a5d5d;
+}
+
+/* when  the screen goes small*/
+.table tr {
+	display: flex;
+	justify-content: space-between;
+}
+
+.table td {
+	padding: 0.5rem;
+}
+
+/* sets every row which is odd to background grey */
+.table tr:nth-of-type(odd) {
+	background: #f3f3f8;
+}
